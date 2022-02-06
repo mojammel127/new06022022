@@ -1,0 +1,75 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0px;
+}
+.flx{
+    display: flex;
+    margin-bottom: 100px;
+}
+h1{
+   font-size:50px;
+}
+.color-orange{
+    color: rgb(255, 165, 0);
+}
+.hafe-width{
+    width:60%;
+    padding-left: 2%;
+}
+.hafe-width img{
+    width: 70%;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(rgb(247, 227, 52), rgba(226, 207, 35, 0));
+    padding: 10px 30px;
+    color: rgb(43, 11, 224);
+    font-weight: 800;
+    border-radius: 5px;
+}
+.top-section{
+    background-image: url(developer-portfolio/top-banner.png);
+   background-repeat: no-repeat;
+
+}
+.drim{
+    background-image: url(developer-portfolio/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position:right;
+
+}
+.exp{
+    background-image: url(developer-portfolio/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-bottom: 10px;
+    
+    
+}
+.shadow{
+    box-shadow: 10px 10px 40px  gray;
+    width:40%;
+    height: 300px;
+    padding-top: 30px;
+    margin-left: 4%;
+    margin-right: 5%;
+    padding-left: 20px;
+    border-radius: 5px;
+}
+
+#full{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+
+#baby{
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(211, 231, 25), rgb(84, 223, 150));
+    border-image-slice: 1;
+}
+
+footer p {
+    text-align: center;
+    color: rgb(72, 72, 92);
+}
